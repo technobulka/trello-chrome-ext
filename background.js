@@ -1,7 +1,7 @@
 chrome.tabs.onCreated.addListener(function(tab) {
     var appID = 'gkcknpgdmiigoagkcoglklgaagnpojed';
 
-    if (/:\/\/trello.com\/(b|c)\//.test(tab.url)) {
+    if (/:\/\/trello.com\/(b|c|card)\//.test(tab.url)) {
         // close current tab
         chrome.tabs.remove(tab.id);
 
