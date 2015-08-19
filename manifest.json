@@ -6,7 +6,7 @@
       "32": "assets/trello-mark-blue-32.png",
       "128": "assets/trello-mark-blue-128.png"
    },
-    "version": "0.1.1",
+    "version": "0.3",
     "background": {
         "scripts": ["background.js"]
     },
@@ -17,7 +17,7 @@
     ],
     "browser_action": {
         "default_title": "Trello Links Catcher",
-        "default_icon": "trello-mark-blue-16.png"
+        "default_icon": "assets/trello-mark-blue-16.png"
     },
     "manifest_version": 2
 }
